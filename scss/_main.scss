@@ -1,0 +1,34 @@
+/*Main*/
+main {
+    grid-area: main;
+    background-image: linear-gradient(rgba(5, 7, 12, 0.75),rgba(5, 7 ,12, 0.75)),
+    url(../images/Background0.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    min-height: 100vh;
+    h1 {
+        color: $white;
+        font-family: $fontRubik;
+        text-align: center;
+    }
+    h2 {
+        color: $white;
+        padding: 20px;
+        font-family: $fontRubik;
+        text-align: center;
+    }
+    h3 {
+        color: $white;
+        padding: 10px;
+        font-size: 16px;
+        font-weight: bolder;
+        font-family: $fontRoboto;
+        text-align: center;
+    }
+}

@@ -1,0 +1,10 @@
+/*Grid*/
+.container__grid {
+    display: grid;
+    grid-template-areas: "header" 
+                          "main" 
+                          "footer";
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+    max-height: 100%;
+}

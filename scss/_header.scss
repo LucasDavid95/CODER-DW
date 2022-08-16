@@ -1,0 +1,12 @@
+/*Header*/
+.header{
+    grid-area: header;
+    background-color: $black;
+
+    .navbar li a {
+    text-decoration: none;
+    font-size: 2rem;
+    font-family: $fontRoboto;
+    color: $cyan;
+}
+}
