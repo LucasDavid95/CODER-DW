@@ -2,6 +2,7 @@
 .container-music {
     @include flex-direction-center(row);
     flex-wrap: wrap;
+    margin-bottom: 10px;
     max-width: 100%;
 
     .music {
@@ -17,6 +18,14 @@
         .music-img {
         width: 50rem;
         height: 30rem;
+    }
+        .music-name {
+        color: $white;
+        padding: 10px;
+        font-size: 20px;
+        font-weight: bolder;
+        font-family: $fontRoboto;
+        text-align: center;
     }
 }
 }

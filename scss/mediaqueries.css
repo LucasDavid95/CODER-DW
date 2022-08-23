@@ -17,6 +17,9 @@
     width: 20rem;
     height: 10rem;
   }
+  .container-music .music .music-name {
+    font-size: 15px;
+  }
   .form {
     width: 20rem;
     height: 24rem;
