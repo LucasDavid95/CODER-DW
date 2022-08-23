@@ -1,17 +1,13 @@
 /*Characters*/
 .container-characters {
-    display:flex;
-    flex-direction: row;
+    @include flex-direction-center(row);
     flex-wrap: wrap;
-    justify-content:center;
-    align-items: center;
     max-width: 80%;
 
     .characters {
-    display: flex;
+    @extend .container-characters;
+    max-width: 100vh;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
     box-shadow: 0px 0px 10px $cyan;
     border-radius: 12px;
     margin: 3rem;
@@ -23,6 +19,15 @@
 
     .characters-img {
     width: 300px;
+    }
+
+    .char-name {
+        color: $white;
+        padding: 10px;
+        font-size: 20px;
+        font-weight: bolder;
+        font-family: $fontRoboto;
+        text-align: center;
     }
 }
 }

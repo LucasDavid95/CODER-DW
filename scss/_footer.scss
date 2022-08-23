@@ -4,12 +4,10 @@ footer {
     width: 100%;
     height: 100%;
     padding: 0.5%;
-    background-color: black;
-    border-top: 4px solid #dc3545;
+    background-color: $black;
+    border-top: 4px solid $red;
     grid-area: footer;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    @include flex-center;
 }
 footer img {
     margin: 10px;
@@ -22,16 +20,16 @@ footer a {
     animation: float 4s ease-in-out infinite;
 }
 .fa-instagram {
-    background: radial-gradient(circle at 30% 107%, #feda75 5%, #feda75 5%, #fa7e1e 45%, #d62976 45% );
+    background: map-get($socialmedia, instagram);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 .fa-facebook {
-    color: #4267B2;
+    color: map-get($socialmedia, facebook);
 }
 .fa-twitter {
-    color: #1DA1F2;
+    color: map-get($socialmedia, twitter);
 }
 
 @keyframes float {

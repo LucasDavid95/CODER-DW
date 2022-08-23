@@ -1,18 +1,9 @@
 /*Home*/
 .container-home{
-    display:flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    @include flex-direction-center(column);
     min-width: 100%; 
 
-.home-p {
-    color: $white;
-    font-size: 1.1rem;
-    font-weight: lighter;
-    font-family: $fontRoboto;
-    line-height: 150%;
-    margin-left: 15px;
-    margin-bottom: 20px;
+    video {
+    width: 100%;
 }
 }

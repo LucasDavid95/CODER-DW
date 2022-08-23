@@ -9,17 +9,17 @@
   .logo {
     width: 100%;
   }
-  .characters-img {
+  .container-characters .characters .characters-img {
     width: 15rem;
     height: 10rem;
   }
-  .music-img {
+  .container-music .music .music-img {
     width: 20rem;
     height: 10rem;
   }
   .form {
     width: 20rem;
-    height: 22rem;
+    height: 24rem;
   }
   h1 {
     margin-top: 30px;
@@ -27,6 +27,15 @@
   }
   h2 {
     font-size: 2rem;
+  }
+  .desktop-carrousel {
+    display: none;
+  }
+  .story-p {
+    font-size: 25px;
+  }
+  .p {
+    font-size: 25px;
   }
   footer a {
     font-size: 2rem;
@@ -62,7 +71,7 @@
   .header .navbar .navbar li a {
     font-size: 1rem;
   }
-  .music-img {
+  .container-music .music .music-img {
     width: 40rem;
     height: 30rem;
   }
@@ -72,11 +81,14 @@
   h2 {
     font-size: 3rem;
   }
-  .home-p {
-    font-size: 20px;
+  .mobile-carrousel {
+    display: none;
+  }
+  .story-p {
+    font-size: 30px;
   }
   .p {
-    font-size: 20px;
+    font-size: 30px;
   }
   footer a {
     font-size: 3rem;
@@ -102,5 +114,11 @@
     100% {
       transform: translateY(0);
     }
+  }
+}
+/*DESKTOP*/
+@media screen and (min-width: 1025px) {
+  .mobile-carrousel {
+    display: none;
   }
 }/*# sourceMappingURL=mediaqueries.css.map */

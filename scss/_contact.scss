@@ -1,14 +1,10 @@
 /*Contact*/
 .container-contact {
-    display:flex;
-    justify-content:center;
-    align-items: center;
+    @include flex-center;
     min-height: 100vh;
-
+}
 .form {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    @include flex-center;
     width: 40rem;
     height: 30rem;
     background-color: rgba(0, 0, 0, 0.74);
@@ -62,11 +58,10 @@
 .btn2 {
     height: 2.2rem;
     width: 5rem;
-    background-color: rgb(255, 0, 0);
+    background-color: $red;
     color: $white;
     font-family: $fontRoboto;
     font-weight: bold;
     margin-bottom: 16px;
 
-}
 }

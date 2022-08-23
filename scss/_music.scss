@@ -1,17 +1,11 @@
 /*Music*/
 .container-music {
-    display:flex;
-    flex-direction: row;
+    @include flex-direction-center(row);
     flex-wrap: wrap;
-    justify-content:center;
-    align-items: center;
     max-width: 100%;
 
-    .music{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    .music {
+    @include flex-direction-center(column);
     box-shadow: 0px 0px 10px #61C9C9;
     border-radius: 12px;
     margin: 1rem;
