@@ -1,9 +1,23 @@
 /*Home*/
-.container-home{
-    @include flex-direction-center(column);
-    min-width: 100%; 
-
-    video {
+.raidenvideo {
     width: 100%;
 }
+.index-title {
+    font-family: $fontRoboto;
+}
+.index-sec-p {
+    font-family: $fontRoboto;
+    color: $white;
+}
+.imgpng {
+    width: 50%;
+    height: 20%;
+}
+.blademode {
+    width: 50%;
+    height: 30%;
+}
+.samuelvideo {
+    width: 50%;
+    height: 20%;
 }

@@ -9,6 +9,16 @@
      .logo {
      width: 100%;
  }
+     .imgpng {
+     width: 70%;
+ }
+     .samuelvideo {
+     display: none;
+ }
+     .blademode {
+     display: none;   
+ }
+
      .container-characters .characters .characters-img {
      width: 15rem;
      height: 10rem;
@@ -86,6 +96,15 @@
  }
      footer a {
      font-size: 3rem;
+ }
+     .imgpng {
+     width: 80%;
+}
+     .samuelvideo {
+     display: none;
+ }
+     .blademode {
+     display: none;   
  }
  
  @keyframes float {

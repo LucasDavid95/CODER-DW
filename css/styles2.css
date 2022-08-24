@@ -46,16 +46,34 @@ main {
     padding: 20px;
     font-family: "Rubik", sans-serif;
     text-align: center; }
+  main h3 {
+    color: whitesmoke;
+    padding: 20px;
+    font-family: "Rubik", sans-serif;
+    text-align: center; }
 
 /*Home*/
-.container-home {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  min-width: 100%; }
-  .container-home video {
-    width: 100%; }
+.raidenvideo {
+  width: 100%; }
+
+.index-title {
+  font-family: "Roboto", sans-serif; }
+
+.index-sec-p {
+  font-family: "Roboto", sans-serif;
+  color: whitesmoke; }
+
+.imgpng {
+  width: 50%;
+  height: 20%; }
+
+.blademode {
+  width: 50%;
+  height: 30%; }
+
+.samuelvideo {
+  width: 50%;
+  height: 20%; }
 
 /*Story*/
 .container-story {
@@ -250,6 +268,12 @@ footer a {
       font-size: 1rem; }
   .logo {
     width: 100%; }
+  .imgpng {
+    width: 70%; }
+  .samuelvideo {
+    display: none; }
+  .blademode {
+    display: none; }
   .container-characters .characters .characters-img {
     width: 15rem;
     height: 10rem; }
@@ -303,6 +327,12 @@ footer a {
     font-size: 30px; }
   footer a {
     font-size: 3rem; }
+  .imgpng {
+    width: 80%; }
+  .samuelvideo {
+    display: none; }
+  .blademode {
+    display: none; }
   @keyframes float {
     0% {
       transform: translateY(0); }
