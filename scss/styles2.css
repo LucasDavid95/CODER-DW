@@ -316,6 +316,9 @@ footer a {
   .header .navbar {
     width: 100%;
   }
+  main {
+    background-image: url(../images/Background767.jpg);
+  }
   .logo {
     width: 100%;
   }
@@ -394,6 +397,9 @@ footer a {
 @media screen and (min-width: 768px) and (max-width: 1024px) {
   .header .navbar {
     width: 100%;
+  }
+  main {
+    background-image: url(../images/Background1024.jpg);
   }
   .container-music .music .music-img {
     width: 40rem;

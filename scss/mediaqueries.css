@@ -3,6 +3,9 @@
   .header .navbar {
     width: 100%;
   }
+  main {
+    background-image: linear-gradient(rgba(5, 7, 12, 0.75), rgba(5, 7, 12, 0.75)), url(../images/Background767.jpg);
+  }
   .logo {
     width: 100%;
   }
@@ -82,6 +85,9 @@
   .header .navbar {
     width: 100%;
   }
+  main {
+    background-image: linear-gradient(rgba(5, 7, 12, 0.75), rgba(5, 7, 12, 0.75)), url(../images/Background1024.jpg);
+  }
   .container-music .music .music-img {
     width: 40rem;
     height: 30rem;
@@ -108,10 +114,10 @@
     font-size: 3rem;
   }
   .imgpng {
-    width: 90%;
+    width: 100%;
   }
   .imgbosses {
-    width: 90%;
+    width: 100%;
   }
   .mgrvideos {
     display: none;
