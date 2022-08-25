@@ -1,128 +1,132 @@
 /*MOBILE*/
 @media screen and (min-width: 0px) and (max-width: 767px) {  
-    .header .navbar {
-     width: 100%;
-     .navbar li a {
-     font-size: 1rem;
-    }
- }   
+     .header .navbar {
+        width: 100%;
+    }   
      .logo {
-     width: 100%;
- }
+        width: 100%;
+    }
      .imgpng {
-     width: 70%;
- }
-     .samuelvideo {
-     display: none;
- }
+        width: 70%;
+    }
+     .imgbosses{
+        width: 90%;
+    }
+     .mgrvideos {
+        display: none;
+    }
      .blademode {
-     display: none;   
- }
-
-     .container-characters .characters .characters-img {
-     width: 15rem;
-     height: 10rem;
- }    
+        display: none;   
+    }
+     .characters-img {
+        width: 60%;
+    }
+     .char-p {
+        font-size: 16px;   
+    }    
      .container-music .music .music-img {
-     width: 20rem;
-     height: 10rem;
- }
+        width: 20rem;
+        height: 10rem;
+    }
      .container-music .music .music-name {
-     font-size: 15px;
- }
+        font-size: 15px;
+    }
      .form {
-     width: 20rem;
-     height: 24rem;   
- }
-     h1 {
-     margin-top: 30px;
-     font-size: 2rem;
- }
-     h2{
-     font-size: 2rem;
- }
+        width: 20rem;
+        height: 24rem;   
+    }
+     main h1 {
+        margin-top: 30px;
+        font-size: 2rem;
+    }
+     main h2{
+        font-size: 2rem;
+    }
      .desktop-carrousel {
-     display: none;   
- }
-     .story-p {
-    font-size: 25px;
- }
+        display: none;   
+    }
+     .container-story .story-p {
+        font-size: 18px;
+    }
      .p {
-    font-size: 25px;
- }
+        font-size: 25px;
+    }
      footer a {
-     font-size: 2rem;
- }
+        font-size: 2rem;
+    }
  
  @keyframes float {
      0% {
          transform: translateY(0);   
- }
+    }
      50% {
          transform: translateY(-3px);   
- }
+    }
      100% {
          transform: translateY(0);
- }
- }
- }
+    }
+    }
+}
 
  /*TABLET*/
- @media screen and (min-width: 768px) and (max-width: 1024px) {
-    .header .navbar {
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+     .header .navbar {
         width: 100%;
-        .navbar li a {
-        font-size: 1rem;
-    }
- } 
+    } 
      .container-music .music .music-img {
-     width: 40rem;
-     height: 30rem;
- }
-     h1 {
-     margin-top: 30px;
- }
-     h2 {
-     font-size: 3rem;
- }
-    .mobile-carrousel {
-     display: none;   
- }
-    .story-p {
-     font-size: 30px;
- }
+        width: 40rem;
+        height: 30rem;
+    }
+     .characters-img {
+        width: 12rem;
+    }
+     main h1 {
+        margin-top: 30px;
+    }
+     main h2 {
+        font-size: 3rem;
+    }
+     .mobile-carrousel {
+        display: none;   
+    }
+     .container-story .story-p {
+        font-size: 25px;
+    }
      .p {
-     font-size: 30px;
- }
+        font-size: 30px;
+    }
      footer a {
-     font-size: 3rem;
- }
+        font-size: 3rem;
+    }
      .imgpng {
-     width: 80%;
-}
-     .samuelvideo {
-     display: none;
- }
+        width: 90%;
+    }
+     .imgbosses{
+        width: 90%;
+    }
+     .mgrvideos {
+        display: none;
+    }
      .blademode {
-     display: none;   
- }
+        display: none;   
+    }
  
  @keyframes float {
      0% {
          transform: translateY(0);   
- }
+    }
      50% {
          transform: translateY(-9px);   
- }
+    }
      100% {
          transform: translateY(0);
- }
- }
- }
+    }
+    }
+}
 
  /*DESKTOP*/
 @media screen and (min-width: 1025px) {
-    .mobile-carrousel {
-    display: none;
- }   
- }
+     .mobile-carrousel {
+        display: none;
+    }   
+}

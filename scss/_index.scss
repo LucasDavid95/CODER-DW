@@ -1,6 +1,11 @@
 /*Home*/
 .raidenvideo {
     width: 100%;
+    background-size: cover;
+}
+.mgrvideos {
+    width: 50%;
+    height: 20%;
 }
 .index-title {
     font-family: $fontRoboto;
@@ -13,11 +18,11 @@
     width: 60%;
     height: 20%;
 }
+.imgbosses {
+    width: 70%;
+    height: 20%;
+}
 .blademode {
     width: 50%;
     height: 30%;
-}
-.samuelvideo {
-    width: 50%;
-    height: 20%;
 }
