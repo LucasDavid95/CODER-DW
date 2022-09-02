@@ -220,7 +220,6 @@ main h4 {
 }
 
 .form_checkbox {
-  color: whitesmoke;
   font-family: "Roboto", sans-serif;
   font-weight: bold;
 }
@@ -317,7 +316,7 @@ footer a {
     width: 100%;
   }
   main {
-    background-image: url(../images/Background767.jpg);
+    background-image: linear-gradient(rgba(5, 7, 12, 0.75), rgba(5, 7, 12, 0.75)), url(../images/Background767.jpg);
   }
   .logo {
     width: 100%;
@@ -399,7 +398,7 @@ footer a {
     width: 100%;
   }
   main {
-    background-image: url(../images/Background1024.jpg);
+    background-image: linear-gradient(rgba(5, 7, 12, 0.75), rgba(5, 7, 12, 0.75)), url(../images/Background1024.jpg);
   }
   .container-music .music .music-img {
     width: 40rem;
@@ -427,10 +426,10 @@ footer a {
     font-size: 3rem;
   }
   .imgpng {
-    width: 90%;
+    width: 100%;
   }
   .imgbosses {
-    width: 90%;
+    width: 100%;
   }
   .mgrvideos {
     display: none;
